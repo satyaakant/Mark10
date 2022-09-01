@@ -57,5 +57,6 @@ table{
 }
 .git{
     width: 40px;
-    border-radius: 20px;
+    border-radius: 31px;
+    padding: 10px;
 }
