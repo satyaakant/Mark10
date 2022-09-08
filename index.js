@@ -11,9 +11,9 @@ checkButton.addEventListener("click", function validatebillandcashamount(){
     hideMessage();
     table.style.display=   "table";
 tableheading.style.display="block";
-    if(billAmount.value>0){
-        if(cashGiven.value >= billAmount.value){
-          const cashtobereturnde = cashGiven.value - billAmount.value;
+    if(Number(billAmount.value)>0){
+        if(Number(cashGiven.value) >= Number(billAmount.value)){
+          const cashtobereturnde = Number(cashGiven.value) - Number(billAmount.value);
             changeCalculator(cashtobereturnde);
         }
         else{
